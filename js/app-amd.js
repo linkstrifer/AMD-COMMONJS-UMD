@@ -5,7 +5,7 @@ requirejs.config({
     }
 });
 
-require(['modules/messages-amd'], function(messages) {
+require(['modules/messages-umd'], function(messages) {
 	messages.success('Success message');
 	messages.error('Error message');
 	messages.info('Info message');
